@@ -44,6 +44,47 @@
 .dropdown .dropdown-hidden {
   display: none;
 }
+.dropdown.second-dropdown {
+  z-index: 2;
+  position: absolute;
+  left: 176px;
+  cursor: pointer;
+}
+.dropdown.second-dropdown .dropdown-button {
+  padding: 15px;
+  border: 3px solid #ffffff;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+}
+.dropdown.second-dropdown .dropdown-button:hover {
+  background-color: #be2530;
+}
+.dropdown.second-dropdown .dropdown-content {
+  width: 100%;
+  position: absolute;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  border: 2.5px solid #931d25;
+}
+.dropdown.second-dropdown .dropdown-link {
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 18px;
+  text-decoration: none;
+  color: #931d25;
+}
+.dropdown.second-dropdown .dropdown-link:hover {
+  color: #ffffff;
+  background-color: #931d25;
+}
+.dropdown.second-dropdown .dropdown-hidden {
+  display: none;
+}
 .tabs {
   width: 100%;
 }
